@@ -188,7 +188,7 @@ def build_page_url(base_url: str, page_num: int) -> str:
 # ── Core scraping logic ────────────────────────────────────────────────────────
 
 def scrape_category(category_name: str, url: str) -> list[dict]:
-    """Scrape all headlines from a category across multiple pages."""
+    """Scrape all headlines from a category across multiple pges."""
     all_headlines = []
 
     for page_num in range(1, MAX_PAGES + 1):
